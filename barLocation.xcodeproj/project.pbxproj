@@ -11,26 +11,14 @@
 		8E1CECEC1CF8B77600E161D7 /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CECEB1CF8B77600E161D7 /* BarTableViewController.swift */; };
 		8E2DA5C91CFB58AD004483C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA5BA1CFB58AD004483C6 /* AppDelegate.swift */; };
 		8E2DA5CA1CFB58AD004483C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DA5BB1CFB58AD004483C6 /* Assets.xcassets */; };
-		8E2DA5CB1CFB58AD004483C6 /* Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA5BC1CFB58AD004483C6 /* Bars.swift */; };
 		8E2DA5CC1CFB58AD004483C6 /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA5BD1CFB58AD004483C6 /* BarTableViewCell.swift */; };
-		8E2DA5CD1CFB58AD004483C6 /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA5BE1CFB58AD004483C6 /* BarTableViewController.swift */; };
-		8E2DA5CE1CFB58AD004483C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DA5BF1CFB58AD004483C6 /* LaunchScreen.storyboard */; };
 		8E2DA5CF1CFB58AD004483C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DA5C11CFB58AD004483C6 /* Main.storyboard */; };
-		8E2DA5D01CFB58AD004483C6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DA5C31CFB58AD004483C6 /* Info.plist */; };
 		8E2DA5D11CFB58AD004483C6 /* MapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA5C41CFB58AD004483C6 /* MapBarViewController.swift */; };
-		8E2DA5D21CFB58AD004483C6 /* MapGlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA5C51CFB58AD004483C6 /* MapGlobalViewController.swift */; };
 		8E2DA5D31CFB58AD004483C6 /* MapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA5C61CFB58AD004483C6 /* MapLocation.swift */; };
-		8E2DA5D41CFB58AD004483C6 /* Pensebete.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DA5C71CFB58AD004483C6 /* Pensebete.json */; };
-		8E2DA5D51CFB58AD004483C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA5C81CFB58AD004483C6 /* ViewController.swift */; };
 		8E6063581CFB5A0100818FF8 /* Pensebete.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E6063571CFB5A0100818FF8 /* Pensebete.json */; };
-		8E9A1BC11CF9CA8200BBDFE7 /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A1BC01CF9CA8200BBDFE7 /* BarTableViewCell.swift */; };
 		8EAC58691CFB2385005A1599 /* Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC58681CFB2385005A1599 /* Bars.swift */; };
-		8EAC586B1CFB3309005A1599 /* MapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC586A1CFB3309005A1599 /* MapBarViewController.swift */; };
 		8EAD61DA1CF894EA00C3FF26 /* MapGlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD61D91CF894EA00C3FF26 /* MapGlobalViewController.swift */; };
-		8EAD61DC1CF8988100C3FF26 /* MapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD61DB1CF8988100C3FF26 /* MapLocation.swift */; };
-		8EF64A8C1CF88D310043B13B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF64A8B1CF88D310043B13B /* AppDelegate.swift */; };
 		8EF64A8E1CF88D310043B13B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF64A8D1CF88D310043B13B /* ViewController.swift */; };
-		8EF64A911CF88D310043B13B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF64A8F1CF88D310043B13B /* Main.storyboard */; };
 		8EF64A931CF88D310043B13B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF64A921CF88D310043B13B /* Assets.xcassets */; };
 		8EF64A961CF88D310043B13B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF64A941CF88D310043B13B /* LaunchScreen.storyboard */; };
 		8EF64AA11CF88D310043B13B /* barLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF64AA01CF88D310043B13B /* barLocationTests.swift */; };
@@ -345,14 +333,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E2DA5D01CFB58AD004483C6 /* Info.plist in Resources */,
 				8E2DA5CF1CFB58AD004483C6 /* Main.storyboard in Resources */,
 				8EF64A961CF88D310043B13B /* LaunchScreen.storyboard in Resources */,
 				8EF64A931CF88D310043B13B /* Assets.xcassets in Resources */,
-				8E2DA5D41CFB58AD004483C6 /* Pensebete.json in Resources */,
 				8E6063581CFB5A0100818FF8 /* Pensebete.json in Resources */,
-				8E2DA5CE1CFB58AD004483C6 /* LaunchScreen.storyboard in Resources */,
-				8EF64A911CF88D310043B13B /* Main.storyboard in Resources */,
 				8E2DA5CA1CFB58AD004483C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,19 +413,11 @@
 				8E2DA5D11CFB58AD004483C6 /* MapBarViewController.swift in Sources */,
 				8E2DA5D31CFB58AD004483C6 /* MapLocation.swift in Sources */,
 				8EF64A8E1CF88D310043B13B /* ViewController.swift in Sources */,
-				8EAC586B1CFB3309005A1599 /* MapBarViewController.swift in Sources */,
 				8EAD61DA1CF894EA00C3FF26 /* MapGlobalViewController.swift in Sources */,
 				8E2DA5C91CFB58AD004483C6 /* AppDelegate.swift in Sources */,
 				8E1CECEC1CF8B77600E161D7 /* BarTableViewController.swift in Sources */,
-				8E2DA5D21CFB58AD004483C6 /* MapGlobalViewController.swift in Sources */,
-				8EF64A8C1CF88D310043B13B /* AppDelegate.swift in Sources */,
-				8EAD61DC1CF8988100C3FF26 /* MapLocation.swift in Sources */,
-				8E2DA5CD1CFB58AD004483C6 /* BarTableViewController.swift in Sources */,
 				8E2DA5CC1CFB58AD004483C6 /* BarTableViewCell.swift in Sources */,
-				8E2DA5CB1CFB58AD004483C6 /* Bars.swift in Sources */,
 				8EAC58691CFB2385005A1599 /* Bars.swift in Sources */,
-				8E2DA5D51CFB58AD004483C6 /* ViewController.swift in Sources */,
-				8E9A1BC11CF9CA8200BBDFE7 /* BarTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +567,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
