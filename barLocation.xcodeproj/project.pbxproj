@@ -8,7 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		518F93AFCA1CCE1E53AE2A43 /* Pods_barLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B08ED842CB929E8B79CF836 /* Pods_barLocation.framework */; };
-		8E94D5791CF88E1200BE150E /* Pense bete.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E94D5781CF88E1200BE150E /* Pense bete.json */; };
+		8E1CECEC1CF8B77600E161D7 /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CECEB1CF8B77600E161D7 /* BarTableViewController.swift */; };
+		8E94D5791CF88E1200BE150E /* Pensebete.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E94D5781CF88E1200BE150E /* Pensebete.json */; };
+		8E9A1BC11CF9CA8200BBDFE7 /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A1BC01CF9CA8200BBDFE7 /* BarTableViewCell.swift */; };
+		8EAC58691CFB2385005A1599 /* Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC58681CFB2385005A1599 /* Bars.swift */; };
+		8EAC586B1CFB3309005A1599 /* MapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC586A1CFB3309005A1599 /* MapBarViewController.swift */; };
+		8EAD61DA1CF894EA00C3FF26 /* MapGlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD61D91CF894EA00C3FF26 /* MapGlobalViewController.swift */; };
+		8EAD61DC1CF8988100C3FF26 /* MapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD61DB1CF8988100C3FF26 /* MapLocation.swift */; };
 		8EF64A8C1CF88D310043B13B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF64A8B1CF88D310043B13B /* AppDelegate.swift */; };
 		8EF64A8E1CF88D310043B13B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF64A8D1CF88D310043B13B /* ViewController.swift */; };
 		8EF64A911CF88D310043B13B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF64A8F1CF88D310043B13B /* Main.storyboard */; };
@@ -38,7 +44,13 @@
 /* Begin PBXFileReference section */
 		264DFF24F598E6258D8F344D /* Pods-barLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-barLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-barLocation/Pods-barLocation.release.xcconfig"; sourceTree = "<group>"; };
 		5B08ED842CB929E8B79CF836 /* Pods_barLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_barLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E94D5781CF88E1200BE150E /* Pense bete.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Pense bete.json"; path = "../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/AC460FCA-842F-45FF-AFAD-405FA1C75581/Pense bete.json"; sourceTree = "<group>"; };
+		8E1CECEB1CF8B77600E161D7 /* BarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTableViewController.swift; sourceTree = "<group>"; };
+		8E94D5781CF88E1200BE150E /* Pensebete.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Pensebete.json; path = "../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/AC460FCA-842F-45FF-AFAD-405FA1C75581/Pensebete.json"; sourceTree = "<group>"; };
+		8E9A1BC01CF9CA8200BBDFE7 /* BarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTableViewCell.swift; sourceTree = "<group>"; };
+		8EAC58681CFB2385005A1599 /* Bars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bars.swift; sourceTree = "<group>"; };
+		8EAC586A1CFB3309005A1599 /* MapBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapBarViewController.swift; sourceTree = "<group>"; };
+		8EAD61D91CF894EA00C3FF26 /* MapGlobalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapGlobalViewController.swift; sourceTree = "<group>"; };
+		8EAD61DB1CF8988100C3FF26 /* MapLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapLocation.swift; sourceTree = "<group>"; };
 		8EF64A881CF88D310043B13B /* barLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF64A8B1CF88D310043B13B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EF64A8D1CF88D310043B13B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +64,7 @@
 		8EF64AA71CF88D310043B13B /* barLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF64AAB1CF88D310043B13B /* barLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barLocationUITests.swift; sourceTree = "<group>"; };
 		8EF64AAD1CF88D310043B13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFC41111CF9FA990023A861 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/barLocation-hhyfuwevgzumxsgxtvktgemamfed/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		E16B3AF2F6DF789D47B8CB20 /* Pods-barLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-barLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-barLocation/Pods-barLocation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +103,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8E66A7DA1CF9F82700C07F77 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8EAD61D91CF894EA00C3FF26 /* MapGlobalViewController.swift */,
+				8EAC586A1CFB3309005A1599 /* MapBarViewController.swift */,
+				8EAD61DB1CF8988100C3FF26 /* MapLocation.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		8E66A7DB1CF9F83C00C07F77 /* bars */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CECEB1CF8B77600E161D7 /* BarTableViewController.swift */,
+				8E9A1BC01CF9CA8200BBDFE7 /* BarTableViewCell.swift */,
+				8EAC58681CFB2385005A1599 /* Bars.swift */,
+			);
+			name = bars;
+			sourceTree = "<group>";
+		};
 		8EF64A7F1CF88D310043B13B = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +150,9 @@
 			children = (
 				8EF64A8B1CF88D310043B13B /* AppDelegate.swift */,
 				8EF64A8D1CF88D310043B13B /* ViewController.swift */,
-				8E94D5781CF88E1200BE150E /* Pense bete.json */,
+				8E66A7DA1CF9F82700C07F77 /* Map */,
+				8E66A7DB1CF9F83C00C07F77 /* bars */,
+				8E94D5781CF88E1200BE150E /* Pensebete.json */,
 				8EF64A8F1CF88D310043B13B /* Main.storyboard */,
 				8EF64A921CF88D310043B13B /* Assets.xcassets */,
 				8EF64A941CF88D310043B13B /* LaunchScreen.storyboard */,
@@ -147,6 +182,7 @@
 		DDF4CE4AD285B6F27180D66B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8EFC41111CF9FA990023A861 /* Alamofire.framework */,
 				5B08ED842CB929E8B79CF836 /* Pods_barLocation.framework */,
 			);
 			name = Frameworks;
@@ -264,7 +300,7 @@
 			files = (
 				8EF64A961CF88D310043B13B /* LaunchScreen.storyboard in Resources */,
 				8EF64A931CF88D310043B13B /* Assets.xcassets in Resources */,
-				8E94D5791CF88E1200BE150E /* Pense bete.json in Resources */,
+				8E94D5791CF88E1200BE150E /* Pensebete.json in Resources */,
 				8EF64A911CF88D310043B13B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,7 +375,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EF64A8E1CF88D310043B13B /* ViewController.swift in Sources */,
+				8EAC586B1CFB3309005A1599 /* MapBarViewController.swift in Sources */,
+				8EAD61DA1CF894EA00C3FF26 /* MapGlobalViewController.swift in Sources */,
+				8E1CECEC1CF8B77600E161D7 /* BarTableViewController.swift in Sources */,
 				8EF64A8C1CF88D310043B13B /* AppDelegate.swift in Sources */,
+				8EAD61DC1CF8988100C3FF26 /* MapLocation.swift in Sources */,
+				8EAC58691CFB2385005A1599 /* Bars.swift in Sources */,
+				8E9A1BC11CF9CA8200BBDFE7 /* BarTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
