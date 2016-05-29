@@ -31,7 +31,7 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="test" translatesAutoresizingMaskIntoConstraints="NO" id="4o2-Pf-G5w">
+                                                <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4o2-Pf-G5w">
                                                     <rect key="frame" x="0.0" y="33" width="332" height="103"/>
                                                 </imageView>
                                             </subviews>
@@ -337,6 +337,5 @@
     <resources>
         <image name="bar" width="25" height="25"/>
         <image name="map_marker" width="25" height="25"/>
-        <image name="test" width="640" height="480"/>
     </resources>
 </document>
