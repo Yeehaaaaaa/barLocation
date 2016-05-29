@@ -22,7 +22,7 @@
 		8E2DA5D31CFB58AD004483C6 /* MapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA5C61CFB58AD004483C6 /* MapLocation.swift */; };
 		8E2DA5D41CFB58AD004483C6 /* Pensebete.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DA5C71CFB58AD004483C6 /* Pensebete.json */; };
 		8E2DA5D51CFB58AD004483C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DA5C81CFB58AD004483C6 /* ViewController.swift */; };
-		8E94D5791CF88E1200BE150E /* Pensebete.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E94D5781CF88E1200BE150E /* Pensebete.json */; };
+		8E6063581CFB5A0100818FF8 /* Pensebete.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E6063571CFB5A0100818FF8 /* Pensebete.json */; };
 		8E9A1BC11CF9CA8200BBDFE7 /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A1BC01CF9CA8200BBDFE7 /* BarTableViewCell.swift */; };
 		8EAC58691CFB2385005A1599 /* Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC58681CFB2385005A1599 /* Bars.swift */; };
 		8EAC586B1CFB3309005A1599 /* MapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAC586A1CFB3309005A1599 /* MapBarViewController.swift */; };
@@ -71,7 +71,7 @@
 		8E2DA5C61CFB58AD004483C6 /* MapLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapLocation.swift; sourceTree = "<group>"; };
 		8E2DA5C71CFB58AD004483C6 /* Pensebete.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Pensebete.json; sourceTree = "<group>"; };
 		8E2DA5C81CFB58AD004483C6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E94D5781CF88E1200BE150E /* Pensebete.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Pensebete.json; path = "../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/AC460FCA-842F-45FF-AFAD-405FA1C75581/Pensebete.json"; sourceTree = "<group>"; };
+		8E6063571CFB5A0100818FF8 /* Pensebete.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Pensebete.json; sourceTree = "<group>"; };
 		8E9A1BC01CF9CA8200BBDFE7 /* BarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarTableViewCell.swift; sourceTree = "<group>"; };
 		8EAC58681CFB2385005A1599 /* Bars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bars.swift; sourceTree = "<group>"; };
 		8EAC586A1CFB3309005A1599 /* MapBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapBarViewController.swift; sourceTree = "<group>"; };
@@ -198,8 +198,8 @@
 				8EF64A8D1CF88D310043B13B /* ViewController.swift */,
 				8E66A7DA1CF9F82700C07F77 /* Map */,
 				8E66A7DB1CF9F83C00C07F77 /* bars */,
-				8E94D5781CF88E1200BE150E /* Pensebete.json */,
 				8E2DA5B91CFB58AD004483C6 /* barLocation */,
+				8E6063571CFB5A0100818FF8 /* Pensebete.json */,
 				8EF64A8F1CF88D310043B13B /* Main.storyboard */,
 				8EF64A921CF88D310043B13B /* Assets.xcassets */,
 				8EF64A941CF88D310043B13B /* LaunchScreen.storyboard */,
@@ -349,8 +349,8 @@
 				8E2DA5CF1CFB58AD004483C6 /* Main.storyboard in Resources */,
 				8EF64A961CF88D310043B13B /* LaunchScreen.storyboard in Resources */,
 				8EF64A931CF88D310043B13B /* Assets.xcassets in Resources */,
-				8E94D5791CF88E1200BE150E /* Pensebete.json in Resources */,
 				8E2DA5D41CFB58AD004483C6 /* Pensebete.json in Resources */,
+				8E6063581CFB5A0100818FF8 /* Pensebete.json in Resources */,
 				8E2DA5CE1CFB58AD004483C6 /* LaunchScreen.storyboard in Resources */,
 				8EF64A911CF88D310043B13B /* Main.storyboard in Resources */,
 				8E2DA5CA1CFB58AD004483C6 /* Assets.xcassets in Resources */,
